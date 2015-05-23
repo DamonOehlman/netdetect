@@ -5,8 +5,14 @@
   "manifest_version": 2,
   "permissions": [
     "storage",
-    "identity"
+    "identity",
+    "system.network"
   ],
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    }
+  },
   "app": {
     "background": {
       "scripts": ["background.js"]
