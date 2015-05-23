@@ -1,0 +1,29 @@
+{
+  "name": "netdetect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "make app",
+    "start": "rm -rf main.js && beefy src/main.js:main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamonOehlman/netdetect.git"
+  },
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/netdetect/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/netdetect#readme",
+  "dependencies": {
+    "chromeapp": "damonoehlman/chromeapp",
+    "netdiscover": "damonoehlman/netdiscover"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.5",
+    "browserify": "^10.2.1"
+  }
+}

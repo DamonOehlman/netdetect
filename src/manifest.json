@@ -1,0 +1,19 @@
+{
+  "name": "netdetect app",
+  "description": "Chrome Application for looking for services on the local network",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": [
+    "storage",
+    "identity"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "16": "icons/robo16.png",
+    "128": "icons/robo128.png"
+  }
+}
